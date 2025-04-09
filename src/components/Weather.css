@@ -1,0 +1,132 @@
+.weather {
+    place-self: center;
+    padding: 40px 80px;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom, #a3c8f4, #1a40b5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  
+  /* Theme Toggle Button */
+  .theme-toggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px 16px;
+    border-radius: 20px;
+    background-color: #ffffffcc;
+    color: black;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background 0.3s ease;
+  }
+  .theme-toggle:hover {
+    background-color: #ffffff;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .search-bar input {
+    padding-left: 25px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    height: 50px;
+    color: #626262;
+    background: #ebfffc;
+  }
+  .search-bar img {
+    width: 50px;
+    padding: 15px;
+    border-radius: 50%;
+    background: #ebfffc;
+    cursor: pointer;
+  }
+  .Temperature {
+    font-size: 80px;
+    color: #fff;
+    line-height: 1;
+  }
+  .weather_icon {
+    width: 150px;
+    margin: 30px 0;
+  }
+  .Location {
+    font-size: 30px;
+    color: #fff;
+  }
+  .weather-data {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+    color: #fff;
+  }
+  .weather-data .col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 22px;
+    gap: 10px;
+  }
+  .weather-data .col span {
+    font-size: 18px;
+    color: #fff;
+    display: block;
+  }
+  .weather-data .col img {
+    width: 30px;
+    margin-top: 10px;
+  }
+  
+  /* 🔁 Refresh button */
+  .refresh {
+    margin-top: 10px;
+    text-align: center;
+  }
+  .refresh .btn {
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: #ffffffcc;
+    color: black; /* Set text color to black */
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  .refresh .btn:hover {
+    background: #ffffff;
+  }
+  
+  /* 🕘 Recent Searches */
+  .recent-history {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .recent-history p {
+    color: black; /* Change heading to black */
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .history-btn {
+    margin: 5px;
+    padding: 8px 14px;
+    font-size: 16px;
+    background: #ffffffcc;
+    color: black; /* Set button text to black */
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  .history-btn:hover {
+    background: #ffffff;
+  }
+  
